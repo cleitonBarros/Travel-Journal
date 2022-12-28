@@ -7,6 +7,7 @@ const Header = styled.header `
     justify-content: space-around;
     background: #F55A5A;
     height: 55px;
+    gap: 2rem;
     width: 100%;
     position: fixed;
     padding: 0.5rem 4rem;

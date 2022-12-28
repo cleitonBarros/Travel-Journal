@@ -10,13 +10,13 @@ const Btn = styled.a`
     height: 40px;
     cursor: pointer;
     span{
-        transition: color 0.3s  ease-in-out;
+        transition: color 0.3s  linear;
         display: flex;
+        flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        gap:  1rem;
-
-        font-size: 16px;
+        gap: 0.2rem;
+        font-size: 14px;
         font-weight: 700;
     }
     .fa-language{
