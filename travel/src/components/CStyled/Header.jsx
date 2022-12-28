@@ -8,13 +8,5 @@ const Header = styled.header `
     background: #F55A5A;
     height: 55px;
     padding: 0.5rem 4rem;
-
-    p{
-        font-family: 'nunito', serif;
-        font-weight: medium;
-        font-size:  1rem;
-
-        color: #FFFFFF;
-    }
 `;
 export default Header 

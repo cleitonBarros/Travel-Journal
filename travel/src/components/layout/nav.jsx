@@ -1,10 +1,11 @@
 import Header from "../CStyled/Header"
+import Paragraph from "../CStyled/Paragraph"
 import worldImg from '../../assets/world.svg'
 function Nav (){
     return(
         <Header>
             <img src={worldImg} alt="icon world" />
-            <p>My travel journal.</p>
+            <Paragraph>My travel journal.</Paragraph>     
         </Header>
     )
 }

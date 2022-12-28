@@ -1,6 +1,7 @@
 import Home from './components/pages/Home'
 import Container from './components/CStyled/Container'
 import Nav from './components/layout/nav'
+import Footer from './components/layout/footer'
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <Container> 
         <Home />
       </Container>
+      <Footer />
+
     </>
   )
 }

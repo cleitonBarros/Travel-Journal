@@ -7,9 +7,6 @@ const Section = styled.section`
     justify-content: space-between;
     align-items: center;
 
-    hr{
-        color: red;
-        width: 100%;
-    }
+   
 `;
 export default Section
