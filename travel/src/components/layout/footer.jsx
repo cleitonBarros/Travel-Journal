@@ -1,9 +1,9 @@
 import Footer from '../CStyled/Footer'
 import Paragraph from "../CStyled/Paragraph"
 
-function Customfooter(){
+function Customfooter( props){
     return(
-        <Footer>
+        <Footer id={props.sth ? '' : 'dark'}>
             <Paragraph>Desenvolvido por KimEvery</Paragraph>
         </Footer>
     )

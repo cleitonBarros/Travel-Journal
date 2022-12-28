@@ -12,9 +12,9 @@ import pointImg from "../../assets/point.svg"
 
 import Data from '../../data/data'
 
-function Sec(){
+function Sec(props){
     return(
-        <Section>
+        <Section id={props.value ? "": 'dark'}>
         {
             Data.map((item,index) =>{
                 return(

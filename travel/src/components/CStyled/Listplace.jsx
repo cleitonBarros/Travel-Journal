@@ -42,8 +42,7 @@ const Listplace = styled.ul`
         }
         .description{
             font-weight: 400;
-            font-size: 12px;
-            
+            font-size: 11px;
 
             color: #2B283A
         }
@@ -95,7 +94,6 @@ const Listplace = styled.ul`
             .description{
                 font-weight: 500;
                 font-size: 18px;
-                line-height: 30px;
                 color: #2B283A
             }
         }

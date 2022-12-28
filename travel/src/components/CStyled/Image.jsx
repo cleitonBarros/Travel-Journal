@@ -6,7 +6,7 @@ const Image = styled.img `
     height: 100%;
     
     @media(min-width: 1024px){
-        width: 100%;       
+        width: 350px;       
     }
 `;
 export default Image

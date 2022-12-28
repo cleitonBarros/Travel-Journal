@@ -9,7 +9,7 @@ const Title = styled.h2`
     margin-bottom: 1.2rem;
 
     @media(min-width: 1024px){   
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
         line-height: 35px;
             
     }

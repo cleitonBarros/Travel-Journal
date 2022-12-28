@@ -3,14 +3,20 @@ import Container from './components/CStyled/Container'
 import Nav from './components/layout/nav'
 import Footer from './components/layout/footer'
 
+import { useState } from 'react'
 function App() {
+  const [switchToggle , setSwitchToggle]= useState('false')
+      const toggleSwitch = () =>{
+        switchToggle ? setSwitchToggle(false) : setSwitchToggle(true)
+      }
+
   return (
     <>
-      <Nav />
-      <Container> 
-        <Home />
+      <Nav value={toggleSwitch} sth={switchToggle}/>
+      <Container  id={switchToggle ? '':'dark' }  > 
+        <Home sth={switchToggle} />
       </Container>
-      <Footer />
+      <Footer   sth={switchToggle} />
 
     </>
   )

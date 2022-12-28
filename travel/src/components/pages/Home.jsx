@@ -1,8 +1,8 @@
 import Section from "../layout/section"
 
-function Home(){
+function Home(props){
     return(  
-        <Section/>
+        <Section  value={props.sth}/>
     )
 }
 
