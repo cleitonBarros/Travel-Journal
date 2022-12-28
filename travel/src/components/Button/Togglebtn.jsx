@@ -55,7 +55,7 @@ const Input = styled.input`
 export default function Toggle(props){
     return(
      <Boxtoggle>
-        <Input type="checkbox" name="toggle" class="checkbox" id="toggle" onClick={props.value} />
+        <Input type="checkbox" name="toggle" checked={props.chk} class="checkbox" id="toggle" onClick={props.value} />
         <Label className="label" for="toggle">
           <i className="fa-solid fa-sun"></i>
           <i className="fa-solid fa-moon"></i>

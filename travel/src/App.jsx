@@ -3,9 +3,21 @@ import Container from './components/CStyled/Container'
 import Nav from './components/layout/nav'
 import Footer from './components/layout/footer'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 function App() {
-  const [switchToggle , setSwitchToggle]= useState('false')
+
+
+      const getSwichToggle = () => { 
+        return JSON.parse(localStorage.getItem('switchToggle')) || false
+      }
+
+      const [switchToggle , setSwitchToggle]= useState(getSwichToggle())
+      
+      useEffect(()=>{
+       localStorage.setItem("switchToggle", JSON.stringify(switchToggle))
+    
+      },[switchToggle])
+
       const toggleSwitch = () =>{
         switchToggle ? setSwitchToggle(false) : setSwitchToggle(true)
       }

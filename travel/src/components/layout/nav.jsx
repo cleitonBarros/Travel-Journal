@@ -9,7 +9,7 @@ function Nav (props){
      
     return(
         <Header id={props.sth ? '':'dark' }>
-            <Toggle value={props.value} />
+            <Toggle chk={props.sth} value={props.value} />
             <div>
             <img src={worldImg} alt="icon world" />
             <Paragraph>My travel journal.</Paragraph>     
