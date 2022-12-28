@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 const Header = styled.header `
+    transition: background 0.5s  ease-in-out;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -13,6 +14,9 @@ const Header = styled.header `
     &#dark{
         background: #410e0e;
     }
+    &#dark a  span {
+        color: white
+    } 
 
     div{
         display: flex;

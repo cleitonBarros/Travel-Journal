@@ -1,30 +1,35 @@
 import styled from "styled-components"
-import lang from '../../assets/lang.svg'
+
 
 const Btn = styled.a`
+    
     display: flex;
     align-items: center;
     justify-content: center;
     width: 40px;
     height: 40px;
     cursor: pointer;
+    span{
+        transition: color 0.3s  ease-in-out;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:  1rem;
 
-    &#dark{
-        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
     }
-
-    img svg:hover path {
-        fill: blue;
+    .fa-language{
+        transform: scale(1.5); 
     }
-
-
+        
     
 `;
 
 export default function Button(props){
     return(
      <Btn>   
-        <img src={lang} alt="" />
+         <span><i class="fa-solid fa-language"></i>Português</span>
       </Btn>
     )
 }

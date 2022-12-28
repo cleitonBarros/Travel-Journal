@@ -8,7 +8,9 @@ body, html, #root{
   background: #fff;
   height: 100%;
   -webkit-font-smoothing: antialiased;
+  
 }
 ul{
   list-style: none;
 }
+
