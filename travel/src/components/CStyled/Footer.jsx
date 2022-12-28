@@ -9,6 +9,12 @@ const Footer = styled.footer `
     padding: 0.5rem 4rem;
     background: #F55A5A;
 
+    p{
+        font-weight: medium;
+        font-size:  1rem;
+        color: #FFFFFF;  
+    }
+
     &#dark{
         background: #410e0e;
     }

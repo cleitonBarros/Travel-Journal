@@ -4,7 +4,7 @@ import Paragraph from "../CStyled/Paragraph"
 function Customfooter( props){
     return(
         <Footer id={props.sth ? '' : 'dark'}>
-            <Paragraph>Desenvolvido por KimEvery</Paragraph>
+            <p>Desenvolvido por KimEvery</p>
         </Footer>
     )
 }

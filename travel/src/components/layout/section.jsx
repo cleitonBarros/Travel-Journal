@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next"
 
 import Section from "../CStyled/Section"
 import Image from "../CStyled/Image"
@@ -7,14 +8,16 @@ import Point from "../CStyled/Point"
 import Listplace from "../CStyled/Listplace"
 
 
-
 import pointImg from "../../assets/point.svg"
 
 import Data from '../../data/data'
 
 function Sec(props){
+    const {t} = useTranslation();
+    
     return(
         <Section id={props.value ? "": 'dark'}>
+           
         {
             Data.map((item,index) =>{
                 return(
