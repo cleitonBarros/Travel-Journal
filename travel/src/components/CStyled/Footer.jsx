@@ -8,6 +8,7 @@ const Footer = styled.footer `
     height: 70px;
     padding: 0.5rem 4rem;
     background: #F55A5A;
+    z-index: 5;
 
     p{
         font-weight: medium;

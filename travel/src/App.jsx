@@ -4,6 +4,7 @@ import Nav from './components/layout/nav'
 import Footer from './components/layout/footer'
 import './lib/i18n/i18n'
 
+
 import { useState, useEffect } from 'react'
 function App() {
 

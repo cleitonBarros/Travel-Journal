@@ -9,8 +9,10 @@ const Header = styled.header `
     height: 55px;
     gap: 2rem;
     width: 100%;
-    position: fixed;
+    
     padding: 0.5rem 4rem;
+    z-index: 9999;
+    
 
     &#dark{
         background: #410e0e;
