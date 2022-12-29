@@ -1,10 +1,5 @@
 # Travel-Jonery
 
-## 🎥 
-<h1 align="center">
-  <img  src="./travel/public/webpage.gif" width="1000px" height="500px"/>
-</h1>
-
 ## 🌑 Dark Mode
 <h1 align="center">
   <img  src="./travel/public/dark.png" width="1000px" height="1000px" />
