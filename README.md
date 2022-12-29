@@ -26,6 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
   - CSS 
   - HTML
   - JS
+  - Styled components
   - i18n - react-i18next
   - [AOS - Animate on scroll library](https://github.com/michalsnik/aos)
   - [react-scroll-to-top](https://github.com/HermanNygaard/react-scroll-to-top)
