@@ -13,9 +13,13 @@ import pointImg from "../../assets/point.svg"
 import Data from '../../data/data'
 
 function Sec(props){
-    const {t} = useTranslation();
+    const {t,ready} = useTranslation();
+    if(!ready) return 'loading translations...'
+    const local =  t('locale',{ returnObjects: true });
+    const description =  t('description',{ returnObjects: true });
     
     return(
+
         <Section id={props.value ? "": 'dark'}>
            
         {
@@ -29,15 +33,15 @@ function Sec(props){
                             <li className="local">
                                 <div>
                                     <Point src={pointImg} />
-                                    <p>{item.location}</p>
+                                    <p>{local[index]}</p>
                                 </div>
-                                <a href={item.googleMapsUrl}>View on Google Maps</a>
+                                <a href={item.googleMapsUrl}>{t('view')}</a>
                             </li>
                             <li >
                                 <Title>{item.title}</Title>
                             </li>
                             <li className="days">{item.startDate}-{item.endDate}</li>
-                            <li className="description">{item.description}</li>
+                            <li className="description">{description[index]}</li>
                         </Listplace>
 
                         

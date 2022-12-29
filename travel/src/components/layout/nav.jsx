@@ -14,7 +14,7 @@ function Nav (props){
             <Toggle chk={props.sth} value={props.value} />
             <div>
             <img src={worldImg} alt="icon world" />
-            <Paragraph>{t("title")}</Paragraph>     
+            <Paragraph>{t('title')}</Paragraph>     
             </div>
             <Switchlang id={props.sth ? '':'dark' } />
         </Header>

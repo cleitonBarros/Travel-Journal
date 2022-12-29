@@ -1,8 +1,16 @@
 {
     "translation":{
+        "lang":"Português", 
         "title":"Meu jornal de viagem",
-        "location": "Japão",
-        "googleMapsUrl": "Veja no Google Maps",
-        "description": "O Monte Fuji é a montanha mais alta do Japão, com 3.776 metros. O Monte Fuji é o local turístico mais popular do Japão, tanto para turistas japoneses quanto estrangeiros"
+        "locale":["Japão", "Brasil", "França","Japão", "Brasil", "França"],
+        "view": "Ver no Google maps ",
+        "description": [
+            "O Monte Fuji é a montanha mais alta do Japão, com 3.776 metros (12.380 pés). O Monte Fuji é o local turístico mais popular do Japão, tanto para turistas japoneses quanto estrangeiros.",
+             "É uma estátua Art Déco de Jesus Cristo no Rio de Janeiro, Brasil, criada pelo escultor francês Paul Landowski e construída pelo engenheiro brasileiro Heitor da Silva Costa, em colaboração com o engenheiro francês Albert Caquot.",
+             "Apelidado localmente de La dame de fer (francês para Dama de Ferro), foi construído de 1887 a 1889 como a peça central da Feira Mundial de 1889. Embora inicialmente criticado por alguns dos principais artistas e intelectuais da França por seu design, desde então se tornou um ícone cultural global da França e uma das estruturas mais reconhecidas do mundo.",
+             "O Monte Fuji é a montanha mais alta do Japão, com 3.776 metros (12.380 pés). O Monte Fuji é o local turístico mais popular do Japão, tanto para turistas japoneses quanto estrangeiros.",
+             "É uma estátua Art Déco de Jesus Cristo no Rio de Janeiro, Brasil, criada pelo escultor francês Paul Landowski e construída pelo engenheiro brasileiro Heitor da Silva Costa, em colaboração com o engenheiro francês Albert Caquot.",
+             "Apelidado localmente de La dame de fer (francês para Dama de Ferro), foi construído de 1887 a 1889 como a peça central da Feira Mundial de 1889. Embora inicialmente criticado por alguns dos principais artistas e intelectuais da França por seu design, desde então se tornou um ícone cultural global da França e uma das estruturas mais reconhecidas do mundo."
+        ]
     }
 }

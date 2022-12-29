@@ -29,42 +29,25 @@ const Btn = styled.a`
     
 `;
 
-const portuguese ={
-    name: languageOptions[0].name,
-    value : languageOptions[0].value,
-}
-const english ={
-    name: languageOptions[1].name,
-    value : languageOptions[1].value,
-}
-const isValid = lng => {
-    if(languagePattern === lng){
-        return portuguese
-    }else if(languagePattern !== lng){
-        return english
-    }
-
-}
-
-console.log(isValid())
-
 
 export default function Button(props){
-    const { i18n} = useTranslation ()
+    const { 
+        t,
+        i18n:{changeLanguage, Language =languagePattern },
+        ready,
+    } = useTranslation ()
 
-    const [langToggle , setLangToggle]= useState('false')
-      
-      const toggleLang = () =>{
-        langToggle ? setLangToggle(false) : setLangToggle(true)
+    
+    const [currentlanguage , setCurrentLanguage]= useState(Language)
+    const handleChangeLangauge = () =>{
+        const newLanguage = currentlanguage === 'en' ? 'pt': 'en'
+        changeLanguage(newLanguage)
+        setCurrentLanguage(newLanguage)
     }
-    console.log( langToggle)
     return(
            
-     <Btn key={isValid(langToggle ? "pt-BR":"en-US").value}
-     onClick={()=>{i18n.changeLanguage(isValid(toggleLang).value)}}
-     >   
-         <span><i class="fa-solid fa-language"></i>{isValid(langToggle ? "pt-BR":"en-US").name}</span>
+     <Btn onClick={handleChangeLangauge}>   
+         <span><i class="fa-solid fa-language"></i>{t('lang')}</span>
       </Btn>
     )
 }
-console.log(isValid())

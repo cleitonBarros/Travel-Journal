@@ -13,7 +13,8 @@ i18n.use(initReactI18next).init({
         pt:ptJson,
         en:enJson
     },
-    fallbacklng: isValid(),
+    fallbackLng: isValid(),
+    
     interpolation:{
         escapeValue:false,
     },
