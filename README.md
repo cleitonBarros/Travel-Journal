@@ -2,17 +2,17 @@
 
 ## 🎥 
 <h1 align="center">
-  <img  src="./travel/public/webpage.gif" width="400px" height="600px"/>
+  <img  src="./travel/public/webpage.gif" width="1000px" height="500px"/>
 </h1>
 
 ## 🌑 Dark Mode
 <h1 align="center">
-  <img  src="./travel/public/dark.png" width="1000px" height="500px" />
+  <img  src="./travel/public/dark.png" width="1000px" height="1000px" />
 </h1>
 
 ## ☀️ Light Mode
 <h1 align="center">
-  <img  src="./travel/public/light.png" width="1000px" height="500px"/>
+  <img  src="./travel/public/light.png" width="1000px" height="1000px"/>
 </h1>
 
 
@@ -37,7 +37,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
   - Uma pagina utilando .map() para popular a partir de um arquivo jQuery
   - Dark e Light mode usando useState e localhost
   - Multi idiomas (português, inglês)
-  - scroll
+  
     
 ## 🔖 Layout
 Você pode visualizar o projeto  através [desse link](https://travel-journal-mu.vercel.app/).
